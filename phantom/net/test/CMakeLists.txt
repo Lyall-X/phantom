@@ -1,0 +1,2 @@
+BUILD_MAIN_MACRO(event_thread_pool_test)
+target_link_libraries(event_thread_pool_test PRIVATE net)
