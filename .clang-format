@@ -75,17 +75,11 @@ IncludeCategories:
   - Regex:           '^<.*'
     Priority:        2
     SortPriority:    0
-  - Regex:           'base/.*\.h'
+  - Regex:           'framework/.*\.h'
     Priority:        3
     SortPriority:    0
   - Regex:           '.*\.h' 
     Priority:        5
-    SortPriority:    0
-  - Regex:           '.*\.hinl'
-    Priority:        6
-    SortPriority:    0
-  - Regex:           '.*\.cinl'
-    Priority:        7
     SortPriority:    0
 IncludeIsMainRegex: '([-_](test|unittest))?$'
 IncludeIsMainSourceRegex: ''

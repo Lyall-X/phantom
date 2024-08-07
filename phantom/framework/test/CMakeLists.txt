@@ -1,0 +1,2 @@
+BUILD_MAIN_MACRO(base_test)
+target_link_libraries(base_test PRIVATE base)

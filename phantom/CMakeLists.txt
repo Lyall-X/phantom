@@ -1,2 +1,2 @@
-add_subdirectory(base)
-add_subdirectory(net)
+add_subdirectory(framework)
+add_subdirectory(src)
